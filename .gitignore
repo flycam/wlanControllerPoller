@@ -1,0 +1,5 @@
+/conf.d/*.conf.php
+!/conf.d/oids.conf.php
+/cache/*.json
+/cache/*.log
+.idea
