@@ -90,7 +90,7 @@ foreach ($destinations AS $j => $d) {
 
             // execute filters
             $filter_res = 0;
-            if(!$d->filer_group && !$d->filter_name){
+            if(!$d->filter_group && !$d->filter_name){
                 $filter_res = 1; // if no includes defined, use all
             }else if($d->filter_group and in_array($ap->gruppe, $d->filter_group)) {
                 // filtered by group
